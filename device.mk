@@ -20,3 +20,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Disable OMX
 PRODUCT_PROPERTY_OVERRIDES += \
 	vendor.media.omx=0
+
+# Overlays
+PRODUCT_PACKAGES += \
+    AOSPAFrameworksOverlayGS
